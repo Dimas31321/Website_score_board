@@ -29,10 +29,11 @@ body {
 }
 
 .score span {
-    color: #F94F6D;
+    font-family: monospace;
     font-size: 100px;
+    font-weight: bold;
+    color: #F94F6D;
 }
-
 .buttons {
     display: flex;
     gap: 15px;
