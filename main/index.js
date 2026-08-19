@@ -32,3 +32,12 @@ function incrementBy3GuestCount(){
     cntGuest += 3
     cntGuestEl.textContent = cntGuest
 }
+
+function decreaseHomeCountBy1(){
+    cntHome = 0
+    cntHomeEl.textContent = cntHome
+}
+function decreaseGuestCountBy1(){
+    cntGuest = 0
+    cntGuestEl.textContent = cntGuest
+}
