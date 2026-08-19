@@ -1,16 +1,42 @@
-<html> 
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="team">
+            <h1>HOME</h1>
+
+            <div class="score">
+                <span id="count-home-el">0</span>
             </div>
-            <div>
-                <h3>GUEST</h3>
+
+            <div class="buttons">
+                <button onclick="incrementBy1HomeCount()">+1</button>
+                <button onclick="incrementBy2HomeCount()">+2</button>
+                <button onclick="incrementBy3HomeCount()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+
+        <div class="team">
+            <h1>GUEST</h1>
+
+            <div class="score">
+                <span id="count-guest-el">0</span>
+            </div>
+
+            <div class="buttons">
+                <button onclick="incrementBy1GuestCount()">+1</button>
+                <button onclick="incrementBy2GuestCount()">+2</button>
+                <button onclick="incrementBy3GuestCount()">+3</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
 </html>
