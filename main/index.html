@@ -1,26 +1,31 @@
-<html> 
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class = "home-info">
-                <h3>HOME</h3>
-                <span id = "count-home-el"></span>
-                <button id = "home-score-btn-1" onclick = "incrementBy1HomeCount()">+1</button>
-                <button id = "home-score-btn-2" onclick = "incrementBy2HomeCount()">+2</button>
-                <button id = "home-score-btn-3" onclick = "incrementBy3HomeCount()">+3</button>
-                <button id="home-score-btn-minus" onclick = "decreaseHomeCountBy1()">-1</button>
-            </div>
-            <div class = "guest-info">
-                <h3>GUEST</h3>
-                <span id = "count-guest-el"></span>
-                <button id = "guest-score-btn-1" onclick = "incrementBy1GuestCount()">+1</button>
-                <button id = "guest-score-btn-2" onclick = "incrementBy2GuestCount()">+2</button>
-                <button id = "guest-score-btn-3" onclick = "incrementBy3GuestCount()">+3</button>
-                <button id="guest-score-btn-minus" onclick = "decreaseGuestCountBy1()">-1</button>
-            </div>
+<div class="container">
+
+    <div class="team">
+        <h1>HOME</h1>
+
+        <div class="score">
+            <span id="count-home-el">0</span>
         </div>
-        <script src="index.js"></script>
-    </body>
-</html>
+
+        <div class="buttons">
+            <button onclick="incrementBy1HomeCount()">+1</button>
+            <button onclick="incrementBy2HomeCount()">+2</button>
+            <button onclick="incrementBy3HomeCount()">+3</button>
+        </div>
+    </div>
+
+    <div class="team">
+        <h1>GUEST</h1>
+
+        <div class="score">
+            <span id="count-guest-el">0</span>
+        </div>
+
+        <div class="buttons">
+            <button onclick="incrementBy1GuestCount()">+1</button>
+            <button onclick="incrementBy2GuestCount()">+2</button>
+            <button onclick="incrementBy3GuestCount()">+3</button>
+        </div>
+    </div>
+
+</div>
