@@ -10,3 +10,11 @@ span {
     display: block;
     margin-bottom: 10px;
 }
+#home-score-btn-minus{
+    display: block;
+    margin-top: 10px;
+}
+#guest-score-btn-minus{
+    display: block;
+    margin-top: 10px;
+}
